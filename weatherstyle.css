@@ -33,10 +33,6 @@
     margin-right: 10px;
     font-size:16px
 }
-.weather-card .search-box input:hover,.weather-card .search-box  button:hover{
-    background:#d4cce4;
-    transition: 0.3s ease-out;
-}
 .weather-card .search-box  button{
     background-color: #fff;
     height:50px;
