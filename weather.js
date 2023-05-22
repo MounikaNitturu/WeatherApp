@@ -1,11 +1,10 @@
-// const apikey="988c0b9e71e8bfb66f142671f06cbb26"
-// const apiurl="http://api.openweathermap.org/data/2.5/weather?units=metric&q=";
+const apikey="988c0b9e71e8bfb66f142671f06cbb26"
 const inputBox=document.getElementById('enteredcity');
 const searchBtn=document.getElementById('search-btn');
 const weathericon=document.querySelector('.weather-icon');
 
 async function weather(city){
-    const response = await fetch(`http://api.openweathermap.org/data/2.5/weather?units=metric&q=${city}&lang=en&appid=988c0b9e71e8bfb66f142671f06cbb26`)
+    const response = await fetch(`http://api.openweathermap.org/data/2.5/weather?units=metric&q=${city}&lang=en&appid=${apikey}`)
     if (response.status == 404){
         document.querySelector(".err-msg").style.display="block"
         document.querySelector(".weather-info").style.display="none"
