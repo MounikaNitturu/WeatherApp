@@ -23,7 +23,7 @@
 }
 
 .weather-card .search-box input{
-    background-color: #DEDEDE;
+    background-color: #fff;
     color:#333;
     padding:10px 20px;
     height:40px;
@@ -39,7 +39,7 @@
     transition: 0.3s ease-out;
 }
 .weather-card .search-box  button{
-    background-color: #DEDEDE;
+    background-color: #fff;
     height:50px;
     width:50px;
     border: 0;
