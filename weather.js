@@ -1,5 +1,5 @@
-const apikey="988c0b9e71e8bfb66f142671f06cbb26"
-const apiurl="http://api.openweathermap.org/data/2.5/weather?units=metric&q=";
+// const apikey="988c0b9e71e8bfb66f142671f06cbb26"
+// const apiurl="http://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 const inputBox=document.getElementById('enteredcity');
 const searchBtn=document.getElementById('search-btn');
 const weathericon=document.querySelector('.weather-icon');
