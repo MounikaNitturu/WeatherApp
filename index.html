@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link rel="stylesheet" href="weatherstyle.css">
+</head>
+<body>
+    <div class="weather-card">
+        <h1 class="heading">Get Weather details</h1>
+        <div class="search-box">
+            <input type="text" placeholder="Enter the city name" id="enteredcity">
+            <button class="search-button" id="search-btn"><img src="Img/search.png"></button>
+        </div>
+        <div class="err-msg">Please enter valid city name</div>
+        <div class="weather-info">
+            <img class="weather-icon" src="Img/rain.png" >
+            <h1 class="temperature">25°C</h1>
+            <p class="city-name">Hyderabad</p>
+            <div class="weather-details">
+                <div class="detail-info">
+                    <img src="Img/wind.png">
+                    <div>
+                        <span class="wind">15 km/hr</span>
+                        <span>Wind Speed<span>
+                    </div>
+                 </div>
+                <div class="detail-info">
+                   <img src="Img/humidity.png">
+                   <div>
+                       <span class="humidity">50%</span>
+                       <span>Humidity</span>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="weather.js"></script> 
+</body>
+</html>
