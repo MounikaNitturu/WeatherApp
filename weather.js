@@ -39,3 +39,7 @@ async function weather(city){
  searchBtn.addEventListener('click', ()=>{
     weather(inputBox.value);
  })
+inputBox.addEventListener('keypress',function(e){
+    if(e.key === "Enter")
+    weather(inputBox.value)
+})
