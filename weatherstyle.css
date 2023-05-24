@@ -5,7 +5,8 @@
 .weather-card{
     max-width:360px;
     width:80%;
-    background: linear-gradient(135deg,#abaed3,#24142c);
+    background-color: #9fa4c4;
+    background-image: linear-gradient(315deg, #9fa4c4 0%, #9e768f 74%);
     margin:30px auto 0;
     color:#fff;
     border-radius:30px;
@@ -13,7 +14,8 @@
     text-align:center
 }
 .heading{
-    margin-bottom:10px
+    margin-bottom:10px;
+    font-size:40px
 }
 .weather-card .search-box{
     display: flex;
