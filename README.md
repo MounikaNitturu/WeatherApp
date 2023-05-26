@@ -21,7 +21,7 @@ URL:http://api.openweathermap.org/data/2.5/weather?units=metric&q=${city}&lang=e
 - **JavaScript**: The app's functionality is implemented using JavaScript, making it interactive and dynamic.
 - **HTML**: The structure and layout of the app are created using HTML.
 - **CSS**: CSS is used for styling the app, ensuring an appealing and visually consistent design.
-- **API Integration**: Weather data is obtained by integrating with a open weather API to fetch accurate and up-to-date information.
+- **API Integration**: Weather data is obtained by integrating with a Open weather API to fetch accurate and up-to-date information.
 
 ## Getting Started
 
