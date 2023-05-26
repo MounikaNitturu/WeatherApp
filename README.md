@@ -1,5 +1,6 @@
 # WeatherApp
-Quickly access accurate weather information with a clean, modern and user-friendly design.\
+This repository contains the source code for a Weather App built using JavaScript, HTML, and CSS. The Weather App provides real-time weather information for different locations, allowing users to check the current weather conditions, temperature, humidity, and more.  
+
 Live demo:https://mounikanitturu.github.io/WeatherApp/
 ### APIS used 
 Open weather API
